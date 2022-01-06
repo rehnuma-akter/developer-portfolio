@@ -1,0 +1,289 @@
+body{
+    margin: 0 auto;
+    padding: 0;
+    width: 100%;
+}
+.section-1{
+    background-color: #fff9e6;
+    display: flex;
+    height: 630px;
+}
+.left-side{
+    margin-left:150px;
+    margin-top: 50px;
+}
+.left-side p{
+    text-align:left;
+    font-size: 22px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-right: 20px;
+    padding-bottom:  20px;
+}
+.left-side h1{
+    border-left: 5px solid rgba(17, 17, 16, 0.767);
+    border-radius: 4px;
+    padding-left: 18px;
+    margin-left: 10px;
+    font-size: 60px;
+    font-family: 'Indie Flower', cursive;
+}
+.left-side span{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(90, 161, 155);
+}
+.left-side button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 13px 22px;
+    border: none;
+    border-radius: 20px;
+    width: 130px;
+    margin-bottom: 15px;
+    color: white;
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+}
+.left-side button:hover{
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    transition: .2s ease-out;
+    box-shadow: 4px 4px 12px rgb(53, 52, 52);
+    cursor: pointer;
+}
+.left-side h6{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    font-size: 15px;
+    margin-top: 24px;
+
+}
+.right-side img{
+    width: 550px;
+    margin-right: 10px;
+    margin-left: 120px;
+    margin-top:50px;
+}
+.section-2{
+    text-align: center;
+    margin-top: 80px;
+    height: 630px;
+}
+.section-2 h1{
+    font-family:'Poppins',serif;
+    font-weight: bolder;
+    font-size: 40px;
+}
+
+.section-2 span{
+    color: rgb(90, 161, 155);
+}
+.all-boxes{
+    margin-top: 90px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.box-1{
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 330px;
+    border-radius: 18px;
+    background-color: rgb(231, 253, 253);
+}
+.box-1:hover{
+    box-shadow: 3px 3px 7px rgb(102, 102, 102);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.box-2{
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 330px;
+    border-radius: 18px;
+    background-color: rgb(255, 231, 245);
+}
+.box-2:hover{
+    box-shadow: 3px 3px 7px rgb(102, 102, 102);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.box-3{
+    font-family: 'Playfair Display', serif;
+    margin-top: 30px;
+    padding-bottom: 20px;
+    width: 330px;
+    height: 330px;
+    border-radius: 18px;
+    background-color: #fff9dd;
+}
+.box-3:hover{
+    box-shadow: 3px 3px 7px rgb(102, 102, 102);
+    cursor: pointer;
+    transition: .3s ease-in-out;
+}
+.box-info{
+    text-align: center;
+    padding: 5px 20px;
+    font-size: 19px;
+}
+
+.box-1 img{
+    width: 110px;
+    margin-top: 2px;
+}
+.box-2 img{
+    width:110px;
+    margin-top: 2px;
+}
+.box-3 img{
+    width: 110px;
+    margin-top: 2px;
+}
+.section-3{
+    display: flex;
+    background-color: #fff9e6;
+    height: 630px;
+    margin-top: 90px;
+}
+.text-part{
+    text-align: center;
+    margin-right: 120px;
+    margin-left: 50px;
+    margin-top:90px ;
+}
+.text-part h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.text-part button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 15px 22px;
+    border: none;
+    border-radius: 30px;
+    width: 170px;
+    margin-bottom: 15px;
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    color: white;
+    margin-top: 20px;
+}
+.text-part button:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    transition: .2s ease-out;
+}
+.image-part img{
+    width: 550px;
+    margin-left: 120px;
+    margin-top: 50px;
+}
+.section-5{
+    height: 630px;
+    background-color: #fff9e6;
+}
+.center-content{
+    display:flex;
+    justify-content: space-around;
+}
+.work{
+    margin-top: 50px;
+    padding: 25px 12px;
+    text-align: center;
+    font-size: 15px;
+    width: 200px;
+    height: 190px;
+    border: 0.3px dashed rgba(0, 0, 0, 0.603);
+    background-color: #effdff;
+}
+.work p{
+    padding:35px 16px;
+}
+.section-5 h1{
+    font-family: 'Poppins', sans-serif;
+    font-size: 40px;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 60px;
+}
+.section-5 button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 14px 20px;
+    border: none;
+    border-radius: 30px;
+    width: 180px;
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    color: white;
+    margin-top: 90px;
+    margin-left: 84%;
+}
+.section-5 button:hover{
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    transition: .2s ease-out;
+}
+.section-4 {
+    margin-top: 50px;
+    height: 630px;
+}
+.section-4 h1{
+    display: inline;
+    font-family:'Poppins',serif;
+    font-size: 32px;
+    margin-left: 50px;
+    padding: 20px 19px ;
+}
+.section-4 span{
+    color: rgb(90, 161, 155);
+    height: 650px;
+}
+.client-side{
+    display: flex;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 14px;
+}
+.client-words{
+    padding: 20px;
+    text-align: left;
+    margin-right: 70px;
+}
+.client-img img{
+    width: 650px;
+    height: 450px;
+    margin: 10px 50px 10px 10px;
+}
+.client-words button{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 12px;
+    padding: 12px;
+    border: none;
+    border-radius: 30px;
+    width: 150px;
+    color: white;
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    margin-top: 30px;
+}
+.client-words button:hover{  
+    box-shadow: 4px 4px 10px rgb(0, 0, 0);
+    background-image: linear-gradient(45deg,rgb(109, 185, 179),rgb(68, 119, 115));
+    transition: .2s ease-out;
+}
+footer{
+    font-family:'Playfair Display',serif;
+    margin-top: 5px;
+    padding: 30px;
+    background-color: black;
+    height: 130px;
+    color: white;
+    text-align: center;
+}
+footer p{
+    color: rgb(121, 118, 118);
+}
+footer span{
+    color: rgb(255, 97, 77);
+}
